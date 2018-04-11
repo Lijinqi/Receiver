@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    tools:context="east.orientation.receiver.ui.MainActivity">
+
+    <!--<AutoCompleteTextView-->
+        <!--android:id="@+id/at_uri"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="uri"/>-->
+    <!--<Button-->
+        <!--android:id="@+id/btn_start"-->
+        <!--android:layout_below="@+id/at_uri"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="start"/>-->
+    <SurfaceView
+        android:id="@+id/sf_show"
+        android:layout_below="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
